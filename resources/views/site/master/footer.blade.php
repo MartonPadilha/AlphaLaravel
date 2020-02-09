@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Electrician an Industrial Category Bootstrap responsive Website Template | Home :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="Electrician Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="{{url(mix('site/css/bootstrap.css'))}}" rel="stylesheet" type="text/css" media="all" />
+<link href="{{url(mix('site/css/myStyle.css'))}}" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="{{url(mix('site/css/style.css'))}}" type="text/css" media="all" />
+<link rel="stylesheet" href="{{url(mix('site/css/flexslider.css'))}}" type="text/css" media="screen" property="" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link rel="stylesheet" href="{{url(mix('site/css/font-awesome.min.css'))}}" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<!-- //font-awesome icons -->
+<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+<!-- font -->
+<link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script type="text/javascript" src="{{url(mix('site/js/jquery-2.1.4.min.js'))}}"></script>
+<script src="{{url(mix('site/js/main.js'))}}"></script>
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+<body>
+
+    @yield('content')
+    <!-- footer -->
+	<div class="footer">
+            <div class="container">
+                <h2 class="wthree_head">Novidades</h2>
+                    <p class="agileits_w3layouts_para w3_agile_para">Quer ficar por dentro das novidades da Alpha Elétrica?</p>
+                    <div class="news-w3l">
+                        <form action="#" method="post">
+                            <input type="email" name="Email" placeholder="Digite seu e-mail" required="">
+                            <input type="submit" value="Enviar">
+                        </form>
+                    </div>
+                <div class="agile_footer_copy">
+                    <div class="w3agile_footer_grids">
+                        
+                        <div class="col-md-4 w3agile_footer_grid">
+                            <h3>Informações para Contato</h3>
+                            <ul>
+                                <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Rua Augusto Fengler 427, Jardim. <span>Ijuí - RS</span></li>
+                                <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">contato@alphaeletrica.ind.br</a></li>
+                                <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>55 3332-1170</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="col-md-6 w3agile_footer_grid">
+                            <h3>Sobre nós</h3>
+                            <p style="text-align: justify;">A Alpha foi fundada em 2009 iniciando suas atividades voltadas para a manutenção elétrica, onde
+                            possui expertise nesse segmento. 
+                            A partir de 2011 começou a fornecer soluções elétricas Turnkey para sistemas de armazenagem.
+                            A partir de 2013 começou a trabalhar projetos com geração de energia e atuar segmento industrial.
+                            Em 2014 foi ampliada da atuação em projetos e treinamentos.
+                            Atualmente dispomos de uma abrangência completa nas soluções elétricas aos clientes para
+                            atender as demandas de Automação e Energia;      
+                        </p>
+                        </div>
+                        
+                        <div class="col-md-2 w3agile_footer_grid w3agile_footer_grid1">
+                            <h3>Navegação</h3>
+                            <ul>
+                                <li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="services.html">Home</a></li>
+                                <li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="projects.html">Serviços</a></li>
+                                <li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="icons.html">Obras</a></li>
+                                <li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="contact.html">Contato</a></li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    <!-- //footer -->
+    <!-- copy-right -->
+        <div class="w3_agileits_copy_right_social">
+            <div class="container">
+                <div class="col-md-6 agileits_w3layouts_copy_right">
+                    <p>© <?php echo date('Y');?> Alpha Elétrica. Todos os direitos reservados | Desenvolvido por <a href="http://megasolucoesti.com/">Mega Soluções</a></p>
+                </div>
+                <div class="col-md-6 w3_agile_copy_right">
+                    <ul class="agileinfo_social_icons">
+                        <li><a href="#" class="w3_agileits_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class="agileinfo_google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class="agileits_pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                    <div class="clearfix"> </div>
+            </div>
+        </div>
+    <!-- //copy-right -->
+        <!-- //footer -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- jarallax -->
+        <script src="{{url(mix('site/js/jarallax.js'))}}"></script>
+        <script src="{{url(mix('site/js/SmoothScroll.min.js'))}}"></script>
+        <script type="text/javascript">
+            /* init Jarallax */
+            $('.jarallax').jarallax({
+                speed: 0.5,
+                imgWidth: 1366,
+                imgHeight: 768
+            })
+        </script>
+        <!-- //jarallax -->
+        <script src="{{url(mix('site/js/bootstrap.js'))}}"></script>
+    <!-- //here ends scrolling icon -->
+    </body>	
+    </html>
