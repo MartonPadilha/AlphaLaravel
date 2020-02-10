@@ -1,5 +1,11 @@
 @extends('site.master.layout')
 @section('content')
+<style>
+	.agile-sub{
+		background-size: cover;
+		background-repeat: no-repeat
+	}
+</style>
 
 <div class="jumbotron jumbotron-fluid" style="height: 40vh; background-image: url('{{asset('assets/images/1280x400/_MG_9537.jpg')}}')">
 	<div class="container">
@@ -24,7 +30,7 @@
 					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>Painéis TTA</li>
 				</ul>
 			</div>
-			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/640x425/_MG_9499.jpg)">
+			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/services/Paineis.jpg)">
 				<div class="text-opacity">
 					<h4>PAINÉIS ELÉTRICOS</h4>
 					<ul>
@@ -39,7 +45,7 @@
 	
 
 		<div class="agile-prod1">
-			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/640x425/_MG_9499.jpg)">
+			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/services/agro.jpg)">
 				<div class="text-opacity">
 					<h4>INSTALAÇÕES ELÉTRICAS E MECÂNICAS</h4>
 					<p>Agroindustriais</p>
@@ -80,7 +86,7 @@
 					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Tratamento de água e afluentes</a></li>
 				</ul>
 			</div>
-			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/640x425/_MG_9465.jpg)">
+			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/services/industrial.jpg)">
 				<div class="text-opacity">
 						<h4>INSTALAÇÕES ELÉTRICAS E MECÂNICAS</h4>
 						<p>Industriais</p>
@@ -95,7 +101,7 @@
 		</div>
 
 		<div class="agile-prod1">
-			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/640x425/_MG_9465.jpg)">
+			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/services/energiaSolar.jpg)">
 				<div class="text-opacity">
 					<h4>GERAÇÃO DE ENERGIA</h4>
 					<ul>
@@ -142,7 +148,7 @@
 			</div>
 
 			<div class="agile-prod1">
-					<div class="col-md-6 agile-sub" style="background-image: url(assets/images/640x425/_MG_9465.jpg)">
+					<div class="col-md-6 agile-sub" style="background-image: url(assets/images/services/manutencao.jpg)">
 						<div class="text-opacity">
 							<h4>MANUTENÇÃO, SERVIÇOS, PÓS VENDAS E TREINAMENTOS</h4>
 							<ul>
