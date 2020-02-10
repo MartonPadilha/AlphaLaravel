@@ -1,10 +1,14 @@
 @extends('admin.master.layout')
 @section('content')
+<script>
+
+</script>
     <div class="container">
         <h3 class="center">Gerenciamento de Fotos</h3>
         <div class="row">
-            <a href="{{route('work.create')}}" class="btn blue">Adicionar</a>
+            <a href="{{route('work.create')}}" class="btn green">Adicionar</a>
         </div>
+       
         <table>
             <thead>
                 <tr>
@@ -28,13 +32,25 @@
                         <td><img width="120" src="{{asset($work->file)}}" alt="{{$work->title}}"></td>
                         <td>
                             @if ($work->author == Auth::user()->id)
-                            <a href="{{route('work.edit', ['works' => $work->id])}}"><i class="far fa-edit"></i></a>
+                            <a class="waves-effect btn blue" href="{{route('work.edit', ['works' => $work->id])}}"><i class="material-icons">edit</i></a>
                             @endif
-                            <form action="{{route('work.destroy', ['works' => $work->id])}}" method="POST">
-                                @csrf
-                                @method('delete')
-                                <button type="submit"><i class="fas fa-trash-alt"></i></button>
-                            </form>
+
+                            <a class="waves-effect btn red modal-trigger" href="#modalDelete{{$work->id}}"><i class="material-icons">delete</i></a>
+                            <!-- Modal Excluir -->
+                            <div id="modalDelete{{$work->id}}" class="modal">
+                                <div class="modal-content">
+                                <h4>Excluir</h4>
+                                <p>Você tem certeza que deseja excluir essa obra?</p>
+                                </div>
+                                <div class="modal-footer">
+                                <form action="{{route('work.destroy', ['works' => $work->id])}}" method="POST">
+                                    @csrf
+                                    @method('delete')
+                                    <button type="submit" class="waves-effect waves-light btn modal-trigger">Sim</button>
+                                    <a href="#!" class="modal-close btn red">Não</a>
+                                </form>
+                                </div>
+                            </div> 
                         </td>
                     </tr>
                 @endforeach
