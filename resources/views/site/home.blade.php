@@ -347,7 +347,7 @@
 
 <div class="agileits_heading_section">
 	<h3 class="wthree_head">DEPOIMENTOS</h3>
-	<p class="agileits_w3layouts_para w3_agile_para">VEJA O QUE NOSSOS CLIENTES PENSAM SOBRE A GENTE</p>
+	<p class="agileits_w3layouts_para w3_agile_para">Veja oque nossos clientes pensam sobre nós</p>
 </div>
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="10000">
 	<div class="carousel-inner">

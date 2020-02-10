@@ -17,17 +17,17 @@
 			<h3 class="wthree_head">PRODUTOS E SOLUÇÕES</h3>
 			<p class="agileits_w3layouts_para w3_agile_para">Oferecemos uma vasta gama de serviços na automação de sistemas elétricos.</p>
 		
-		<div class="agile-prod1">
+		<div class="agile-prod1" id="electrical-panels">
 			<div class="col-md-6 agile-sub">
 				<h4>PAINÉIS ELÉTRICOS</h4>
 				<ul>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>Painéis de Comando de motores (CCM)</li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>Painéis Sinóticos (CCM-S)</li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>Painéis Gerais de Baixa Tensão (QGBT)</li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>Painéis de Automação / Especiais</li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>Painéis de Banco de Capacitores</li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>Painéis de MT de 15 KV até 36 kV</li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>Painéis TTA</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Painéis de Comando de motores (CCM)</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Painéis Sinóticos (CCM-S)</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Painéis Gerais de Baixa Tensão (QGBT)</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Painéis de Automação / Especiais</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Painéis de Banco de Capacitores</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Painéis de MT de 15 KV até 36 kV</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Painéis TTA</li>
 				</ul>
 			</div>
 			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/services/Paineis.jpg)">
@@ -44,7 +44,7 @@
 		</div>
 	
 
-		<div class="agile-prod1">
+		<div class="agile-prod1" id="agribusiness">
 			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/services/agro.jpg)">
 				<div class="text-opacity">
 					<h4>INSTALAÇÕES ELÉTRICAS E MECÂNICAS</h4>
@@ -60,30 +60,30 @@
 				<h4>INSTALAÇÕES ELÉTRICAS E MECÂNICAS</h4>
 				<p>Agroindustriais</p>
 				<ul>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Movimentação de Grãos</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Armazenagem, Termometria e AeraçãoPellentesque auctor</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Beneficiamento de Sementes</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Obras para alimentação elétrica de Irrigação</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Obras Portuárias</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Instalações à prova de explosão</a></li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Movimentação de Grãos</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Armazenagem, Termometria e AeraçãoPellentesque auctor</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Beneficiamento de Sementes</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Obras para alimentação elétrica de Irrigação</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Obras Portuárias</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Instalações à prova de explosão</li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 
-		<div class="agile-prod1">
+		<div class="agile-prod1" id="industrial">
 			<div class="col-md-6 agile-sub">
 				<h4>INSTALAÇÕES ELÉTRICAS E MECÂNICAS</h4>
 				<p>Industriais</p>
 				<ul>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Alimentícios</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Construtoras</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Fábrica de Rações</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Fertilizantes</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Frigoríficos</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Petroquímico</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Siderúrgico</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Tratamento de água e afluentes</a></li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Alimentícios</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Construtoras</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Fábrica de Rações</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Fertilizantes</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Frigoríficos</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Petroquímico</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Siderúrgico</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Tratamento de água e afluentes</li>
 				</ul>
 			</div>
 			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/services/industrial.jpg)">
@@ -100,7 +100,7 @@
 			<div class="clearfix"> </div>
 		</div>
 
-		<div class="agile-prod1">
+		<div class="agile-prod1" id="power-generation">
 			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/services/energiaSolar.jpg)">
 				<div class="text-opacity">
 					<h4>GERAÇÃO DE ENERGIA</h4>
@@ -114,24 +114,24 @@
 			<div class="col-md-6 agile-sub">
 				<h4>GERAÇÃO DE ENERGIA</h4>
 				<ul>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Soluções Fotovoltaicas - ENERGIA SOLAR</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Geradores de gás, diesel e biogás</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Pequenas centrais hidroelétricas (PCH’s)</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Usinas Termo Elétricas (UTE’s)</a></li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Soluções Fotovoltaicas - ENERGIA SOLAR</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Geradores de gás, diesel e biogás</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Pequenas centrais hidroelétricas (PCH’s)</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Usinas Termo Elétricas (UTE’s)</li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 
-		<div class="agile-prod1">
+		<div class="agile-prod1" id="commercials">
 				<div class="col-md-6 agile-sub">
 					<h4>COMERCIAIS</h4>
 					<ul>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Automação</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Central de distribuição (CDs) </a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Centros de TI e data centers</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Escritórios</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Supermercados/ Shoppings</a></li>
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Automação</li>
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Central de distribuição (CDs) </li>
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Centros de TI e data centers</li>
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Escritórios</li>
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Supermercados/ Shoppings</li>
 					</ul>
 				</div>
 				<div class="col-md-6 agile-sub" style="background-image: url(assets/images/640x425/_MG_9465.jpg)">
@@ -147,7 +147,7 @@
 				<div class="clearfix"> </div>
 			</div>
 
-			<div class="agile-prod1">
+			<div class="agile-prod1" id="maintenance">
 					<div class="col-md-6 agile-sub" style="background-image: url(assets/images/services/manutencao.jpg)">
 						<div class="text-opacity">
 							<h4>MANUTENÇÃO, SERVIÇOS, PÓS VENDAS E TREINAMENTOS</h4>
@@ -161,12 +161,12 @@
 					<div class="col-md-6 agile-sub">
 						<h4>MANUTENÇÃO, SERVIÇOS, PÓS VENDAS E TREINAMENTOS</h4>
 						<ul>
-							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Gestão de Energia - redução significativa na manutenção corretiva</a></li>
-							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Assistência técnica em painéis e instalações elétricas</a></li>
-							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Laudos técnicos</a></li>
-							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Acompanhamentos das condições da obra (Pós Vendas)</a></li>
-							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Termografia e Análise de Energia</a></li>
-							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Análise e Laudos de condições de fornecimento de Energia</a></li>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Gestão de Energia - redução significativa na manutenção corretiva</li>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Assistência técnica em painéis e instalações elétricas</li>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Laudos técnicos</li>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Acompanhamentos das condições da obra (Pós Vendas)</li>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Termografia e Análise de Energia</li>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Análise e Laudos de condições de fornecimento de Energia</li>
 						</ul>
 					</div>
 					<div class="clearfix"> </div>

@@ -54,9 +54,9 @@ Alfa Alpha Alfa Ijui Alpha Ijui Projeto Elétrico Engenharia Elétrica" />
                         <div class="col-md-4 w3agile_footer_grid">
                             <h3>Informações para Contato</h3>
                             <ul>
-                                <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Rua Augusto Fengler 427, Jardim. <span>Ijuí - RS</span></li>
-                                <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">contato@alphaeletrica.ind.br</a></li>
-                                <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>55 3332-1170</li>
+                                <li><i class="fa fa-map-marker" aria-hidden="true"></i>Rua Augusto Fengler 427, Jardim. <span>Ijuí - RS</span></li>
+                                <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">contato@alphaeletrica.ind.br</a></li>
+                                <li><i class="fa fa-phone" aria-hidden="true"></i>55 3332-1170</li>
                             </ul>
                         </div>
                         
@@ -74,12 +74,22 @@ Alfa Alpha Alfa Ijui Alpha Ijui Projeto Elétrico Engenharia Elétrica" />
                         
                         <div class="col-md-2 w3agile_footer_grid w3agile_footer_grid1">
                             <h3>Navegação</h3>
-                            <ul>
-                                <li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="services.html">Home</a></li>
-                                <li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="projects.html">Serviços</a></li>
-                                <li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="icons.html">Obras</a></li>
-                                <li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="contact.html">Contato</a></li>
-                            </ul>
+                            <div class="col-md-1">
+                                <ul>
+                                    <li><span class="fa fa-home fa-lg" aria-hidden="true"></span></li>
+                                    <li><span class="fa fa-bolt fa-lg" aria-hidden="true"></span></a></li>
+                                    <li><span class="fa fa-wrench fa-lg" aria-hidden="true"></span></li>
+                                    <li><span class="fa fa-comments fa-lg" aria-hidden="true"></span></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-1">
+                                <ul>
+                                    <li><a href="{{route('site.home')}}">Home</a></li>
+                                    <li><a href="{{route('site.service')}}">Serviços</a></li>
+                                    <li><a href="{{route('site.work')}}">Obras</a></li>
+                                    <li><a href="{{route('site.contact')}}">Contato</a></li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="clearfix"> </div>
                     </div>
@@ -92,16 +102,8 @@ Alfa Alpha Alfa Ijui Alpha Ijui Projeto Elétrico Engenharia Elétrica" />
     <!-- copy-right -->
         <div class="w3_agileits_copy_right_social">
             <div class="container">
-                <div class="col-md-6 agileits_w3layouts_copy_right">
+                <div class="col-md-12 text-center agileits_w3layouts_copy_right">
                     <p>© <?php echo date('Y');?> Alpha Elétrica. Todos os direitos reservados | Desenvolvido por <a href="http://megasolucoesti.com/">Mega Soluções</a></p>
-                </div>
-                <div class="col-md-6 w3_agile_copy_right">
-                    <ul class="agileinfo_social_icons">
-                        <li><a href="#" class="w3_agileits_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="agileinfo_google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="agileits_pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                    </ul>
                 </div>
                     <div class="clearfix"> </div>
             </div>
