@@ -15,36 +15,40 @@
 			<div class="col-md-6 agile-sub">
 				<h4>PAINÉIS ELÉTRICOS</h4>
 				<ul>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Painéis de Comando de motores (CCM)</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Painéis Sinóticos (CCM-S)</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Painéis Gerais de Baixa Tensão (QGBT)</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Painéis de Automação / Especiais</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Painéis de Banco de Capacitores</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Painéis de MT de 15 KV até 36 kV</a></li>
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Painéis TTA</a></li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>Painéis de Comando de motores (CCM)</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>Painéis Sinóticos (CCM-S)</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>Painéis Gerais de Baixa Tensão (QGBT)</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>Painéis de Automação / Especiais</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>Painéis de Banco de Capacitores</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>Painéis de MT de 15 KV até 36 kV</li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>Painéis TTA</li>
 				</ul>
 			</div>
 			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/640x425/_MG_9499.jpg)">
-				{{-- <img src="assets/images/640x425/_MG_9499.jpg" alt="image" class="img-responsive"> --}}
-				<h4>PAINÉIS ELÉTRICOS</h4>
-				<ul>
-					<li></li>
-					<li></li>
-					<li>de Baixa Tensão (QGBT)</a></li>
-					<li>de Baixa Tensão (QGBT)</a></li>
-					<li>mação / Especiais</a></li>
-					<li>o de Capacitores</a></li>
-					<li>e 15 KV até 36 kV</a></li>
-					<li></li>
-				</ul>
+				<div class="text-opacity">
+					<h4>PAINÉIS ELÉTRICOS</h4>
+					<ul>
+						@for ( $i = 0; $i < 7; $i++)
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i></li>						
+						@endfor
+					</ul>
+				</div>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 	
 
 		<div class="agile-prod1">
-			<div class="col-md-6 agile-img">
-				<img src="assets/images/640x425/_MG_9438.jpg" alt="image">
+			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/640x425/_MG_9499.jpg)">
+				<div class="text-opacity">
+					<h4>INSTALAÇÕES ELÉTRICAS E MECÂNICAS</h4>
+					<p>Agroindustriais</p>
+					<ul>
+						@for ( $i = 0; $i < 6; $i++)
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i></li>						
+						@endfor
+					</ul>
+				</div>
 			</div>
 			<div class="col-md-6 agile-sub">
 				<h4>INSTALAÇÕES ELÉTRICAS E MECÂNICAS</h4>
@@ -76,15 +80,30 @@
 					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Tratamento de água e afluentes</a></li>
 				</ul>
 			</div>
-			<div class="col-md-6 agile-img">
-				<img src="assets/images/640x425/_MG_9465.jpg" alt="image">
+			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/640x425/_MG_9465.jpg)">
+				<div class="text-opacity">
+						<h4>INSTALAÇÕES ELÉTRICAS E MECÂNICAS</h4>
+						<p>Industriais</p>
+						<ul>
+							@for ( $i = 0; $i < 8; $i++)
+								<li><i class="fa fa-arrow-right" aria-hidden="true"></i></li>						
+							@endfor
+						</ul>
+				</div>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 
 		<div class="agile-prod1">
-			<div class="col-md-6 agile-img">
-				<img src="assets/images/640x425/_MG_9533.jpg" alt="image">
+			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/640x425/_MG_9465.jpg)">
+				<div class="text-opacity">
+					<h4>GERAÇÃO DE ENERGIA</h4>
+					<ul>
+						@for ( $i = 0; $i < 4; $i++)
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i></li>						
+						@endfor
+					</ul>
+				</div>
 			</div>
 			<div class="col-md-6 agile-sub">
 				<h4>GERAÇÃO DE ENERGIA</h4>
@@ -106,17 +125,32 @@
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Central de distribuição (CDs) </a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Centros de TI e data centers</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Escritórios</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Supermercados/ Shoppings</a></li></ul>
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">Supermercados/ Shoppings</a></li>
+					</ul>
 				</div>
-				<div class="col-md-6 agile-img">
-					<img src="assets/images/640x425/_MG_9465.jpg" alt="image">
+				<div class="col-md-6 agile-sub" style="background-image: url(assets/images/640x425/_MG_9465.jpg)">
+					<div class="text-opacity">
+						<h4>COMERCIAIS</h4>
+						<ul>
+							@for ( $i = 0; $i < 5; $i++)
+								<li><i class="fa fa-arrow-right" aria-hidden="true"></i></li>						
+							@endfor
+						</ul>
+					</div>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 
 			<div class="agile-prod1">
-					<div class="col-md-6 agile-img">
-						<img src="assets/images/640x425/_MG_9533.jpg" alt="image">
+					<div class="col-md-6 agile-sub" style="background-image: url(assets/images/640x425/_MG_9465.jpg)">
+						<div class="text-opacity">
+							<h4>MANUTENÇÃO, SERVIÇOS, PÓS VENDAS E TREINAMENTOS</h4>
+							<ul>
+								@for ( $i = 0; $i < 6; $i++)
+									<li><i class="fa fa-arrow-right" aria-hidden="true"></i></li>						
+								@endfor
+							</ul>
+						</div>
 					</div>
 					<div class="col-md-6 agile-sub">
 						<h4>MANUTENÇÃO, SERVIÇOS, PÓS VENDAS E TREINAMENTOS</h4>

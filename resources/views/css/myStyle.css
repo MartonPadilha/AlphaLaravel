@@ -272,5 +272,10 @@ ul.simplefilter {
     color: #7b7b7b;
 }
 
+/* services */
+.agile-sub .text-opacity{
+    opacity: 0;
+}
+
 
 

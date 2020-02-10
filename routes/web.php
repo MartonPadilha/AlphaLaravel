@@ -25,7 +25,7 @@ Route::get('/contato', function () {
     return view('site/contact');
 })->name('site.contact');
 
-Auth::routes();
+// Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
