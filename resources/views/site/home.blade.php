@@ -108,7 +108,7 @@
 		<div class="container">
 			<div class="agileits_heading_section">
 				<h3 class="wthree_head">ÁREAS DE ATUAÇÃO</h3>
-				<p class="agileits_w3layouts_para w3_agile_para">Etiam malesuada odio vitae enim malesuada accumsan diam sed.</p>
+				<p class="agileits_w3layouts_para w3_agile_para">Dispomos de uma abrangência completa em soluções elétricas.</p>
 			</div>
 			<div class="w3layouts_skills_grids w3layouts_featured_services_grids">
 			<div class="col-md-6 w3_featured_services_right">
@@ -194,8 +194,10 @@
 			</div>
 		</div>
 	</div>
-<!-- //services -->
-<div class="services">
+	<!-- //services -->
+	
+	{{-- acting  --}}
+<div class="map">
 		<div class="container">
 			<div class="agileits_heading_section">
 				<h3 class="wthree_head">ÁREAS DE ATENDIMENTO</h3>
@@ -228,7 +230,6 @@
 			</div>
 		</div>
 	</div>
-{{-- acting  --}}
 
 
 	<!-- values -->
