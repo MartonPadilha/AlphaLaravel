@@ -195,6 +195,41 @@
 		</div>
 	</div>
 <!-- //services -->
+<div class="services">
+		<div class="container">
+			<div class="agileits_heading_section">
+				<h3 class="wthree_head">ÁREAS DE ATENDIMENTO</h3>
+			</div>
+			<div class="w3layouts_skills_grids w3layouts_featured_services_grids">
+				<div class="col-md-6 w3_featured_services_right">
+					<div class="agile-sub-map">
+						<h3>REGIÃO SUL</h3>
+						<ul>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> RS</li>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> SC (Oeste)</li>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> PR</li>
+						</ul>
+						<h3>REGIÃO NORTE</h3>
+						<ul>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> TO - Com escritório em Palmas</li>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> PA - Com escritório em Dom Eliseu</li>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> MA</li>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> BA</li>
+						</ul>
+						<p>Demais regiões e estados, atendimento sob demanda.</p>
+					</div>
+				</div>
+				
+				<div class="col-md-6 w3_featured_services_left">
+					<img src="{{asset('assets/images/services/mapa.jpg')}}" alt=" " class="img-responsive" style="background-size: cover; border-radius: 10px">
+				</div>
+				
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+{{-- acting  --}}
+
 
 	<!-- values -->
 

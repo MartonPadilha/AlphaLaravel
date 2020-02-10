@@ -277,5 +277,27 @@ ul.simplefilter {
     opacity: 0;
 }
 
+/* map */
+.agile-sub-map {
+    background: #fff;
+    padding: 30px;
+}
+.agile-sub-map ul {
+    margin: 1em 0 0 0;
+    padding: 0;
+}
+.agile-sub-map ul li {
+    color: #2a3136;
+    margin-bottom: .85em;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.agile-sub-map ul li i{
+    color: #ed3237;
+}
+
+
 
 
