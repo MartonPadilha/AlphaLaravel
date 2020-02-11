@@ -1,5 +1,5 @@
 <?php
-
+use App\Mail\sendMail;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,17 +25,16 @@ Route::get('/contato', function () {
     return view('site/contact');
 })->name('site.contact');
 
-// Auth::routes();
+// Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/home', 'HomeController@index')->name('home');
-
-// Route::get('/admin', 'AuthController@dashboard')->name('admin');
 Route::get('/admin', 'WorkController@index')->name('admin');
 Route::get('/admin/login', 'AuthController@showLoginForm')->name('admin.login');
 Route::get('/admin/logout', 'AuthController@logout')->name('admin.logout');
 Route::post('/admin/login/do', 'AuthController@login')->name('admin.login.do');
 
 Route::resource('/obra', 'WorkController')->names('work')->parameters(['obra' => 'works']);
+
+Route::post('/send-email', 'Email\EmailController@email')->name('email');
 
 
 

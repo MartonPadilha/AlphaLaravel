@@ -38,26 +38,27 @@
         <h3 class="wthree_head">ENTRE EM CONTATO CONOSCO</h3>
             <p class="agileits_w3layouts_para w3_agile_para">Ficaremos felizes em falar com você! </p>
         <div class="agileinfo_mail_grids">
-            <form action="#" method="post">
+            <form action="{{route('email')}}" method="post">
+                @csrf
                 <span class="input input--chisato">
-                    <input class="input__field input__field--chisato" name="Name" type="text" id="input-13" placeholder=" " required="" />
+                    <input class="input__field input__field--chisato" name="inputName" type="text" id="input-13" placeholder=" " required="" />
                     <label class="input__label input__label--chisato" for="input-13">
                         <span class="input__label-content input__label-content--chisato" data-content="Nome">Nome</span>
                     </label>
                 </span>
                 <span class="input input--chisato">
-                    <input class="input__field input__field--chisato" name="Email" type="email" id="input-14" placeholder=" " required="" />
+                    <input class="input__field input__field--chisato" name="inputEmail" type="email" id="input-14" placeholder=" " required="" />
                     <label class="input__label input__label--chisato" for="input-14">
                         <span class="input__label-content input__label-content--chisato" data-content="Email">Email</span>
                     </label>
                 </span>
                 <span class="input input--chisato">
-                    <input class="input__field input__field--chisato" name="Subject" type="text" id="input-15" placeholder=" " required="" />
+                    <input class="input__field input__field--chisato" name="inputSubject" type="text" id="input-15" placeholder=" " required="" />
                     <label class="input__label input__label--chisato" for="input-15">
                         <span class="input__label-content input__label-content--chisato" data-content="Assunto">Assunto</span>
                     </label>
                 </span>
-                <textarea name="Message" placeholder="Sua mensagem aqui..." required=""></textarea>
+                <textarea name="inputMessage" placeholder="Sua mensagem aqui..." required=""></textarea>
                 <input type="submit" value="Enviar">
             </form>
         </div>

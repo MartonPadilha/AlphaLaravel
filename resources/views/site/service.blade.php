@@ -1,12 +1,11 @@
 @extends('site.master.layout')
 @section('content')
 <style>
-	.agile-sub{
-		background-size: cover;
-		background-repeat: no-repeat
-	}
+.agile-sub{
+    background-size: cover;
+    background-repeat: no-repeat
+}
 </style>
-
 <div class="jumbotron jumbotron-fluid" style="height: 40vh; background-image: url('{{asset('assets/images/1280x400/_MG_9537.jpg')}}')">
 	<div class="container">
 	</div>

@@ -104,7 +104,7 @@
 	<!-- //banner -->
 	
 	<!-- services -->
-<div class="services">
+<div class="services" style="margin-top: 100px">
 		<div class="container">
 			<div class="agileits_heading_section">
 				<h3 class="wthree_head">ÁREAS DE ATUAÇÃO</h3>
@@ -112,7 +112,7 @@
 			</div>
 			<div class="w3layouts_skills_grids w3layouts_featured_services_grids">
 			<div class="col-md-6 w3_featured_services_right">
-					<img src="{{asset('assets/images/640X425/_MG_9537.jpg')}}" alt=" " class="img-responsive" style="background-size: cover; border-radius: 10px">
+					<img src="http://alphaeletrica.ind.br/AlphaLaravel/public/assets/images/640x425/_MG_9537.jpg" alt=" " class="img-responsive" style="background-size: cover; border-radius: 10px">
 				</div>
 				<div class="col-md-3 w3_featured_services_left">
 					<div class="w3_featured_services_left_grid">

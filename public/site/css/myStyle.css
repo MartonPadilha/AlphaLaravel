@@ -277,6 +277,9 @@ ul.simplefilter {
     opacity: 0;
 }
 
+.fa-arrow-right{
+    color: #ed3237
+}
 /* map */
 .agile-sub-map {
     background: #fff;
