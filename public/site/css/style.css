@@ -1901,7 +1901,7 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
 }
 .agileinfo_mail_grids input[type="submit"] {
     outline: none;
-    background: #48b7ec;
+    background: #ed3237;
     border: none;
     font-size: 1em;
     color: #fff;
@@ -1910,9 +1910,12 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2px;
+    transition-duration: 0.8s;
 }
 .agileinfo_mail_grids input[type="submit"]:hover{
-	background:#ed3237;
+    background:#fff;
+    color: #ed3237;
+    border: 1px solid #ed3237;
 }
 /*-- //mail --*/
 .agileits_w3layouts_copy_right {

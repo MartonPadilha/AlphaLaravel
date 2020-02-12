@@ -29,10 +29,9 @@ Alfa Alpha Alfa Ijui Alpha Ijui Projeto Elétrico Engenharia Elétrica" />
 <!-- //font -->
 <script type="text/javascript" src="{{url(mix('site/js/jquery-2.1.4.min.js'))}}"></script>
 <script src="{{url(mix('site/js/main.js'))}}"></script>
-
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<![endif]-->
+{{-- Carousel --}}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
 </head>
 <body>
 
@@ -101,7 +100,29 @@ Alfa Alpha Alfa Ijui Alpha Ijui Projeto Elétrico Engenharia Elétrica" />
         </div>
     <!-- //copy-right -->
         <!-- //footer -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            autoplay:true,
+            autoplayTimeout:4000,
+            autoplayHoverPause:false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+        </script>
     <!-- jarallax -->
         <script src="{{url(mix('site/js/jarallax.js'))}}"></script>
         <script src="{{url(mix('site/js/SmoothScroll.min.js'))}}"></script>

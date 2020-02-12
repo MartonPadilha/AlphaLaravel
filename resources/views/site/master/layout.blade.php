@@ -79,6 +79,7 @@ Alfa Alpha Alfa Ijui Alpha Ijui Projeto Elétrico Engenharia Elétrica" />
 								<li class={{(Route::current()->getName() === 'site.service' ? 'active' : '')}}><a href="{{route('site.service')}}">Serviços</a></li>
 								<li class={{(Route::current()->getName() === 'site.work' ? 'active' : '')}}><a href="{{route('site.work')}}">Obras</a></li>
 								<li class={{(Route::current()->getName() === 'site.contact' ? 'active' : '')}}><a href="{{route('site.contact')}}">Contato</a></li>
+								<li><a href="https://webmail.kinghost.com.br/" target="_blank">E-mail</a></li>
 							</ul>
 							<div class="clearfix"> </div>
 						</nav>

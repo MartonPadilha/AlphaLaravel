@@ -45,6 +45,7 @@
 							<li class={{(Route::current()->getName() === 'site.service' ? 'active' : '')}}><a href="{{route('site.service')}}">Serviços</a></li>
 							<li class={{(Route::current()->getName() === 'site.work' ? 'active' : '')}}><a href="{{route('site.work')}}">Obras</a></li>
 							<li class={{(Route::current()->getName() === 'site.contact' ? 'active' : '')}}><a href="{{route('site.contact')}}">Contato</a></li>
+							<li><a href="https://webmail.kinghost.com.br/" target="_blank">E-mail</a></li>
 						</ul>
 						<div class="clearfix"> </div>
 					</nav>
@@ -299,6 +300,20 @@
 					  </div>
 			</div>
 	</div> --}}
+	<div class="owl-carousel owl-theme">
+		<div class="item" style="background-image: url('{{asset('assets/images/partners/abb.png')}}'); background-position: center;"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+	</div>
 
 
 <!-- stats -->
