@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Email;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Mail\Help;
+use App\Http\Controllers\Controller;
+use App\Help;
 use Validator;
 use Input;
 use Redirect;
@@ -12,26 +12,38 @@ use Mail;
 
 class EmailController extends Controller
 {
-    public function email(Request $request){
 
-        $rules = array(
-        	// 'event_type' => '|required',
-			// 'inputName' => 'required',
-			// 'inputEmail' => 'email|required',
-			// 'inputSubject' => 'required',
-			// 'inputMessage' => 'required',
-        );
+    public function email(Request $request)
+	{
 
-        $validator = Validator::make($request->all(), $rules);
-        if ($validator->passes()) {
-            $status = true;
-            Mail::to('contato@alphaeletrica.ind.br')->send(new Help($request->inputName, $request->inputEmail, $request->inputSubject, $request->inputMessage));
-            echo('enviou');
-            return view('site.contact', compact('status'));
-        } else {
-            echo('n enviou');
-            $status = false;
-            return view('site.contact', compact('status'));
-        }
-    }
+		$rules = array(
+
+		// $rules = array(
+		// 	'event_type' => '|required',
+		// 	'inputName' => 'required',
+		// 	'inputEmail' => 'email|required',
+		// 	'inputSubject' => 'required',
+		// 	'inputMessage' => 'required',
+
+
+		);
+
+		$validator = Validator::make($request->all(), $rules);
+
+		if ($validator->passes()){
+
+		    if ($validator->passes()){
+			$status = true;
+
+			Mail::to('contato@alphaeletrica.ind.br')->send(new \App\Mail\Help( $request->inputName, $request->inputEmail, $request->inputSubject, $request->inputMessage));
+
+			return view('site.contact',compact('status'));
+		}
+
+		$status = false;
+		return view('contact',compact('status'));
+
+		}
+	}
+
 }

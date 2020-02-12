@@ -8,14 +8,15 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Mail;
 
-class sendEmail extends Mailable
+class Help extends Mailable
 {
     use Queueable, SerializesModels;
+
     public $inputName;
     public $inputEmail;
     public $inputSubject;
     public $inputMessage;
-
+    
     /**
      * Create a new message instance.
      *
@@ -36,6 +37,6 @@ class sendEmail extends Mailable
      */
     public function build()
     {
-        return $this->view('email.help')->subject('Thank you '.$this->inputName.'! Your email had been sent to ____!');
+        return $this->view('email.help')->subject($this->inputSubject. ' - ' . $this->inputName);
     }
 }

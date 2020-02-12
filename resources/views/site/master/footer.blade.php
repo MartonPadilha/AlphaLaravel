@@ -40,17 +40,8 @@ Alfa Alpha Alfa Ijui Alpha Ijui Projeto Elétrico Engenharia Elétrica" />
     <!-- footer -->
 	<div class="footer">
             <div class="container">
-                <h2 class="wthree_head">Novidades</h2>
-                    <p class="agileits_w3layouts_para w3_agile_para">Quer ficar por dentro das novidades da Alpha Elétrica?</p>
-                    <div class="news-w3l">
-                        <form action="#" method="post">
-                            <input type="email" name="Email" placeholder="Digite seu e-mail" required="">
-                            <input type="submit" value="Enviar">
-                        </form>
-                    </div>
                 <div class="agile_footer_copy">
                     <div class="w3agile_footer_grids">
-                        
                         <div class="col-md-4 w3agile_footer_grid">
                             <h3>Informações para Contato</h3>
                             <ul>
