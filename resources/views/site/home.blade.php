@@ -282,38 +282,46 @@
 	</div>
 
 	{{-- partners --}}
-	{{-- <div class="wrapper">
-			<div class="container">
-				<div class="agileits_heading_section">
-					<h3 class="wthree_head">PARCEIROS</h3>
-					<p class="agileits_w3layouts_para w3_agile_para">A Alpha preocupa-se com a qualidade das suas soluções, e para isso é importante ter parceiros e
-						fornecedores que nos garantam produtos de qualidade e engenharia compartilhada.</p>
-				</div>
-				<div class="owl-carousel owl-theme">
-						<div> Your Content 1</div>
-						<div> Your Content 2</div>
-						<div> Your Content 3</div>
-						<div> Your Content 4</div>
-						<div> Your Content 5</div>
-						<div> Your Content 6</div>
-						<div> Your Content 7</div>
-					  </div>
+	<style>
+	.itemCarousel {
+    	/* background-image: url('assets/images/partners/abb.png'); */
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+			width: 200px;
+			height: 150px;
+		}
+
+	.wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+	</style>
+	<div class="wrapper">
+		<div class="container">
+			<div class="agileits_heading_section">
+				<h3 class="wthree_head">PARCEIROS</h3>
+				<p class="agileits_w3layouts_para w3_agile_para">A Alpha preocupa-se com a qualidade das suas soluções, e para isso é importante ter parceiros e
+					fornecedores que nos garantam produtos de qualidade e engenharia compartilhada.</p>
 			</div>
-	</div> --}}
-	<div class="owl-carousel owl-theme">
-		<div class="item" style="background-image: url('{{asset('assets/images/partners/abb.png')}}'); background-position: center;"></div>
-		<div class="item"></div>
-		<div class="item"></div>
-		<div class="item"></div>
-		<div class="item"></div>
-		<div class="item"></div>
-		<div class="item"></div>
-		<div class="item"></div>
-		<div class="item"></div>
-		<div class="item"></div>
-		<div class="item"></div>
-		<div class="item"></div>
+			
+			<div class="owl-carousel owl-theme">
+				<div class="itemCarousel" style="background-image: url('{{asset('assets/images/partners/abb.png')}}')"></div>
+				<div class="itemCarousel" style="background-image: url('{{asset('assets/images/partners/corfio.png')}}')"></div>
+				<div class="itemCarousel" style="background-image: url('{{asset('assets/images/partners/elecon.png')}}')"></div>
+				<div class="itemCarousel" style="background-image: url('{{asset('assets/images/partners/nexans.png')}}')"></div>
+				<div class="itemCarousel" style="background-image: url('{{asset('assets/images/partners/opcao.png')}}')"></div>
+				<div class="itemCarousel" style="background-image: url('{{asset('assets/images/partners/phoenix.gif')}}')"></div>
+				<div class="itemCarousel" style="background-image: url('{{asset('assets/images/partners/qt.png')}}')"></div>
+				<div class="itemCarousel" style="background-image: url('{{asset('assets/images/partners/sil.png')}}')"></div>
+				<div class="itemCarousel" style="background-image: url('{{asset('assets/images/partners/weg.png')}}')"></div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
 	</div>
+
+
 
 
 <!-- stats -->
