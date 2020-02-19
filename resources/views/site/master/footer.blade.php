@@ -104,7 +104,7 @@ Alfa Alpha Alfa Ijui Alpha Ijui Projeto Elétrico Engenharia Elétrica" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         <script>
-        $('.owl-carousel').owlCarousel({
+            $('.owl-carousel').owlCarousel({
             loop:true,
             margin:10,
             autoplay:true,
@@ -121,7 +121,9 @@ Alfa Alpha Alfa Ijui Alpha Ijui Projeto Elétrico Engenharia Elétrica" />
                     items:4
                 }
             }
-        })
+            })
+
+					
         </script>
     <!-- jarallax -->
         <script src="{{url(mix('site/js/jarallax.js'))}}"></script>

@@ -5,7 +5,7 @@
 <div class="banner jarallax">
 <div class="agileinfo-dot">
 			<div class="w3ls-banner-info-bottom">
-				<div class="container">
+				<div class="container-fluid">
 					<div class="banner-address">
 						<div class="banner-address-left">
 							<p><i class="fa fa-map-marker" aria-hidden="true"></i>  Rua Augusto Fengler 427, Jardim. Ijuí - RS</p>
@@ -24,7 +24,7 @@
 			</div>
 
 			<div class="header row">
-				<div class="container">
+				<div class="container-fluid">
 					<nav class="navbar navbar-default">
 				<div class="navbar-header navbar-left col-md-6">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -54,27 +54,26 @@
 				</div>
 			</div>
 
-			
 			<div class="w3layouts-banner">
 				<div class="container-fluid">
 					<section class="slider">
 						<div class="flexslider" style="height: 50vh">
 							<ul class="slides">
-								<li style="background-image: url('{{asset('assets/images/1280x800/esc.jpg')}}'); height: 70vh;">
+								<li style="background-image: url('{{asset('assets/images/1280x800/esc.jpg')}}')">
 									<div class="agileits_w3layouts_banner_info">
 										<h3>SERVIÇOS ELÉTRICOS</h3>
 										<p>Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 									</div>
 									<div class="clearfix"> </div>
 								</li>
-								<li style="background-image: url('{{asset('assets/images/1280x800/_MG_9512_esc.jpg')}}'); height: 70vh;">
+								<li style="background-image: url('{{asset('assets/images/1280x800/_MG_9512_esc.jpg')}}')">
 									<div class="agileits_w3layouts_banner_info" ba>
 										<h3>SEGURANÇA NA SUA EMPRESA</h3>
 										<p>Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 									</div>
 									<div class="clearfix"> </div>
 								</li>
-								<li style="background-image: url('{{asset('assets/images/1280x800/_MG_9552_esc.jpg')}}'); height: 70vh;">
+								<li style="background-image: url('{{asset('assets/images/1280x800/_MG_9552_esc.jpg')}}')">
 									<div class="agileits_w3layouts_banner_info">
 										<h3>FERRAMENTAS E EQUIPAMENTOS ESPECIALIZADOS</h3>
 										<p>Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
@@ -105,16 +104,35 @@
 	<!-- //banner -->
 	
 	<!-- services -->
-<div class="services" style="margin-top: 100px">
-		<div class="container">
+	<div class="services" style="margin-top: 23vh">
+		<div class="container-fluid-fluid">
 			<div class="agileits_heading_section">
 				<h3 class="wthree_head">ÁREAS DE ATUAÇÃO</h3>
 				<p class="agileits_w3layouts_para w3_agile_para">Dispomos de uma abrangência completa em soluções elétricas.</p>
 			</div>
 			<div class="w3layouts_skills_grids w3layouts_featured_services_grids">
-			<div class="col-md-6 w3_featured_services_right">
-					<img src="http://alphaeletrica.ind.br/AlphaLaravel/public/assets/images/640x425/_MG_9537.jpg" alt=" " class="img-responsive" style="background-size: cover; border-radius: 10px">
+				<div class="col-md-6 services_background" style="background-image: url('assets/images/services/eletric_wallpaper.jpg'); border-radius: 70px;">
+					@for ($i = 0; $i < 2; $i++)
+						{{-- <div class="col-md-3 w3_featured_services_left"> --}}
+						<div class="col-md-3 w3_featured_services_left" style="opacity: 0">
+							@for ($j = 0; $j < 4; $j++)
+								{{-- <div class="w3_featured_services_left_grid"> --}}
+								<div class="w3_featured_services_left_grid">
+									<div class="col-xs-4 w3_featured_services_left_gridl">
+										<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+											<i class="hi-icon fa-industry"> </i>
+										</div>
+									</div>
+									<div class="col-xs-8 w3_featured_services_left_gridr">
+										<h4>Industrial</h4>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+							@endfor
+						</div>
+					@endfor
 				</div>
+
 				<div class="col-md-3 w3_featured_services_left">
 					<div class="w3_featured_services_left_grid">
 							<div class="col-xs-4 w3_featured_services_left_gridl">
@@ -282,22 +300,6 @@
 	</div>
 
 	{{-- partners --}}
-	<style>
-	.itemCarousel {
-    	/* background-image: url('assets/images/partners/abb.png'); */
-			background-size: contain;
-			background-position: center;
-			background-repeat: no-repeat;
-			width: 200px;
-			height: 150px;
-		}
-
-	.wrapper {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
-	</style>
 	<div class="wrapper">
 		<div class="container">
 			<div class="agileits_heading_section">
@@ -321,12 +323,9 @@
 		</div>
 	</div>
 
-
-
-
 <!-- stats -->
 	<div class="stats" style="background-image: url('{{asset('assets/images/1280x400/_MG_9552_esc.jpg')}}'); background-position: center;">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="col-md-3 w3_counter_grid">
 				<div class="w3_agileits_counter_grid">
 					<i class="fa fa-umbrella" aria-hidden="true"></i>
@@ -372,7 +371,7 @@
 	<h3 class="wthree_head">DEPOIMENTOS</h3>
 	<p class="agileits_w3layouts_para w3_agile_para">Veja oque nossos clientes pensam sobre nós</p>
 </div>
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="10000">
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="8000">
 	<div class="carousel-inner">
 	  <div class="carousel-item item container active">
 			<p class="text-center comment"><span class="fa fa-quote-left s4" aria-hidden="true"></span> A Alpha Elétrica é uma ótima empresa! Valoriza o cliente e presta todo suporte necessário.</p>

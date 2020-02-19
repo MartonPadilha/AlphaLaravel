@@ -301,6 +301,34 @@ ul.simplefilter {
     color: #ed3237;
 }
 
+/* areas atuação */
+.services_background{ 
+    background-position: center; 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.flexslider ul li{
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+/* carousel */
+.itemCarousel {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 150px;
+}
+
+.wrapper {
+width: 100%;
+height: auto;
+overflow: hidden;
+}
 
 
 
