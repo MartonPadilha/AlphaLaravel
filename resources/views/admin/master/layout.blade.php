@@ -26,15 +26,17 @@
                 <a href="#!" class="brand-logo">Alpha Elétrica</a>
                 <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                <li><a href="#">Obras</a></li>
-                <li><a href="#">Usuários</a></li>
+                <li><a href="{{route('work.index')}}">Obras</a></li>
+                <li><a href="{{route('user.index')}}">Usuários</a></li>
+                <li><a href="{{route('admin.logout')}}">Sair</a></li>
                 </ul>
             </div>
         </nav>
         
         <ul class="sidenav" id="mobile">
-            <li><a href="#">Obras</a></li>
-            <li><a href="#">Usuários</a></li>
+            <li><a href="{{route('work.index')}}">Obras</a></li>
+            <li><a href="{{route('user.index')}}">Usuários</a></li>
+            <li><a href="{{route('admin.logout')}}">Sair</a></li>
         </ul>
     </header>
     @yield('content')

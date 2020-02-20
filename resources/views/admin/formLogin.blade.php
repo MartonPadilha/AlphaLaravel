@@ -15,16 +15,16 @@
           <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
             <div class="card card-signin my-5">
               <div class="card-body">
-                <h5 class="card-title text-center">Sign In</h5>
+                <h5 class="card-title text-center">Login</h5>
               <form class="form-signin" method="POST" action="{{route('admin.login.do')}}">
                   @csrf
                   <div class="form-label-group">
-                    <input type="text" id="email" name="email" value="marton@gmail.com" class="form-control" placeholder="Email address" required autofocus>
+                    <input type="text" id="email" name="email" class="form-control" required>
                     <label for="inputEmail">Email</label>
                   </div>
                   <div class="form-label-group">
                     <input type="password" id="password" name="password" class="form-control">
-                    <label for="inputPassword">Password</label>
+                    <label for="inputPassword">Senha</label>
                   </div>
                   @if ($errors->all())
                       @foreach ($errors->all() as $error)

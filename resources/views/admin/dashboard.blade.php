@@ -1,8 +1,5 @@
 @extends('admin.master.layout')
 @section('content')
-<script>
-
-</script>
     <div class="container">
         <h3 class="center">Gerenciamento de Fotos</h3>
         <div class="row">
@@ -31,11 +28,11 @@
                         <td>{{$work->date}}</td>
                         <td><img width="120" src="{{asset($work->file)}}" alt="{{$work->title}}"></td>
                         <td>
-                            @if ($work->author == Auth::user()->id)
-                            <a class="waves-effect btn blue" href="{{route('work.edit', ['works' => $work->id])}}"><i class="material-icons">edit</i></a>
+                            @if ($work->author == Auth::user()->id || Auth::user()->level == "Administrador")
+                                <a class="waves-effect btn blue" href="{{route('work.edit', ['works' => $work->id])}}"><i class="material-icons">edit</i></a>
+                                <a class="waves-effect btn red modal-trigger" href="#modalDelete{{$work->id}}"><i class="material-icons">delete</i></a>   
                             @endif
 
-                            <a class="waves-effect btn red modal-trigger" href="#modalDelete{{$work->id}}"><i class="material-icons">delete</i></a>
                             <!-- Modal Excluir -->
                             <div id="modalDelete{{$work->id}}" class="modal">
                                 <div class="modal-content">
