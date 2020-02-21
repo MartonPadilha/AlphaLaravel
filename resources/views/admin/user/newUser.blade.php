@@ -49,6 +49,7 @@
     
 
             <button type="submit" class="btn deep-orange">Salvar</button>
+            <a class="waves-effect btn" href="{{route('user.index')}}">Voltar</a>
            </form>
        </div>
     </div>
