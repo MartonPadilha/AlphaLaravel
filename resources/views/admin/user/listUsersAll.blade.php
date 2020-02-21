@@ -7,6 +7,29 @@
             <a href="{{route('user.create')}}" class="btn green">Adicionar</a>
         </div>
         @endif
+
+        <div class="row">
+            <div class="col-sm-12">
+                @if (session('status'))
+                    <div class="waves-effect waves-light btn text-center" id="time_out">
+                        <span>{{ session('status') }}</span>
+                    </div>
+                @else
+                    <div class="waves-effect waves-light btn" style="visibility: hidden">
+                        <span>teste</span>
+                    </div>
+                @endif
+          </div>
+        </div>
+
+        <script>
+            let time_out = document.querySelector('#time_out')
+                window.setTimeout(function() {
+                    $("#time_out").fadeTo(500, 0).slideUp(500, function(){
+                    $(this).remove(); 
+                    });
+                }, 5000);
+        </script>
        
         <table>
             <thead>

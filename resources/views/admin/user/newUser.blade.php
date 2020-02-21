@@ -1,11 +1,11 @@
 @extends('admin.master.layout')
 @section('content')
-                <script>
-              document.addEventListener('DOMContentLoaded', function() {
-                var elems = document.querySelectorAll('select');
-                var instances = M.FormSelect.init(elems, options);
-              });
-                </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('select');
+        var instances = M.FormSelect.init(elems, options);
+      });
+    </script>
     <div class="container">
         <h3 class="center">Adicionar Usuário</h3>
        <div class="row">

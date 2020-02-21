@@ -46,7 +46,7 @@ class UserController extends Controller
         $user->password = Hash::make($request->password);
         $user->save();
 
-        return redirect()->route('user.index');
+        return redirect()->route('user.index')->withStatus('Usuário adicionado com sucesso!');
     }
 
     /**
@@ -90,7 +90,7 @@ class UserController extends Controller
         }
         $user->save();
 
-        return redirect()->route('user.index');
+        return redirect()->route('user.index')->withStatus('Usuário editado com sucesso!');
     }
 
     /**
@@ -102,6 +102,6 @@ class UserController extends Controller
     public function destroy(User $user)
     {
         $user->delete();
-        return redirect()->route('user.index');
+        return redirect()->route('user.index')->withStatus('Usuário deletado com sucesso!');
     }
 }
