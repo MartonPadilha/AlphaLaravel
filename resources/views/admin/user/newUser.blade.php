@@ -20,6 +20,13 @@
                 <div class="input-field col s7">
                     <input type="text" name="email">
                     <label for="">Email</label>
+                    @if ($errors->all())
+                    @foreach ($errors->all() as $error)
+                        <div class="red-text text-darken-1">
+                          {{$error}}
+                        </div>
+                    @endforeach
+                @endif
                 </div>
             </div>
 

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\User;
 use Hash;
+use Illuminate\Support\Facades\DB;
 
 class UserController extends Controller
 {
@@ -39,14 +40,19 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        $user = new User();
-        $user->name = $request->name;
-        $user->email = $request->email;
-        $user->level = $request->level;
-        $user->password = Hash::make($request->password);
-        $user->save();
+        if (DB::table('users')->where('email', $request->email)->count() == 0) {
+            $user = new User();
+            $user->name = $request->name;
+            $user->email = $request->email;
+            $user->level = $request->level;
+            $user->password = Hash::make($request->password);
+            $user->save();
+    
+            return redirect()->route('user.index')->withStatus('Usuário adicionado com sucesso!');
+        } else {
+            return redirect()->back()->withInput()->withErrors(['Este email já foi usado!']);
+        }
 
-        return redirect()->route('user.index')->withStatus('Usuário adicionado com sucesso!');
     }
 
     /**
