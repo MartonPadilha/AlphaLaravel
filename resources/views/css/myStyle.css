@@ -330,5 +330,15 @@ height: auto;
 overflow: hidden;
 }
 
+.loading {
+position: relative;
+z-index: 1000;
+height: 50px;
+margin-left: 50%;
+width: 50px;
+background: url('assets/images/ajax-loader.gif') no-repeat;
+}
+
+
 
 

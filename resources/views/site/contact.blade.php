@@ -60,14 +60,14 @@
                 </span>
                 <textarea name="inputMessage" placeholder="Sua mensagem aqui..." required=""></textarea>
                 
-                <div class="alert alert-danger d-none messageBox" role="alert">
+                <div class="d-none messageBox" role="alert">
+                       
                 </div>
 
-                <input type="submit" value="Enviar">
+                <input type="submit" value="Enviar" name="send">
             </form>
         </div>
     </div>
-
 </div>
 <!-- //mail -->
 <!-- map -->
@@ -127,12 +127,18 @@
                 type: 'post',
                 data: $(this).serialize(),
                 dataType: 'json',
+                beforeSend: function(){
+                    $(".messageBox").addClass('loading')
+                },
+                error: function(){
+                    $('.messageBox').removeClass('loading')
+                    $('.messageBox').removeClass('d-none').addClass('text-center alert alert-danger').html(response.message)
+                },
                 success: function(response){
-                    if (response.success) {
-                        $('.messageBox').removeClass('d-none').html(response.message)
-                    } else{
-                        $('.messageBox').removeClass('d-none').html(response.message)
-                    }
+                    $('.messageBox').removeClass('loading')
+                    $('form[name="form_contact"] :input').val('')
+                    $('input[name="send"]').val('Enviar')
+                    $('.messageBox').removeClass('d-none').addClass('text-center alert alert-success').html(response.message)
                 }
             });
         });

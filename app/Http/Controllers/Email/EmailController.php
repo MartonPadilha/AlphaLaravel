@@ -35,16 +35,16 @@ class EmailController extends Controller
 		    if ($validator->passes()){
 			$status = true;
 
-			Mail::to('marton@megasolucoesti.com.br')->send(new \App\Mail\Help( $request->inputName, $request->inputEmail, $request->inputSubject, $request->inputMessage));
+			Mail::to('contato@alphaeletrica.ind.br')->send(new \App\Mail\Help( $request->inputName, $request->inputEmail, $request->inputSubject, $request->inputMessage));
 
 			$email['success'] = true;
-			$email['message'] = 'Email enviado com sucesso!';
+			$email['message'] = 'Obrigado pelo contato. Seu email foi enviado com sucesso!';
 			echo json_encode($email);
 			return;
 			// return view('site.contact',compact('status'));
 		}
 		$email['success'] = false;
-		$email['message'] = 'Erro ao enviar email!';
+		$email['message'] = 'Falha ao enviar email. Tente Novamente';
 		echo json_encode($email);
 		return;
 		// $status = false;

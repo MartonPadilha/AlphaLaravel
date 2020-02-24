@@ -1902,7 +1902,7 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
 .agileinfo_mail_grids input[type="submit"] {
     outline: none;
     background: #ed3237;
-    border: none;
+    border: 1px solid white;
     font-size: 1em;
     color: #fff;
     width: 30%;

@@ -306,7 +306,6 @@ ul.simplefilter {
     background-position: center; 
     background-size: contain;
     background-repeat: no-repeat;
-    border-radius: 7px;
 }
 
 .flexslider ul li{
@@ -330,6 +329,16 @@ width: 100%;
 height: auto;
 overflow: hidden;
 }
+
+.loading {
+position: relative;
+z-index: 1000;
+height: 50px;
+margin-left: 50%;
+width: 50px;
+background: url('assets/images/ajax-loader.gif') no-repeat;
+}
+
 
 
 
