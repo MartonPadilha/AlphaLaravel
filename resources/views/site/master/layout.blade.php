@@ -8,7 +8,7 @@
 <meta name="keywords" content="Painéis Elétricos Instalação Elétrica Instalações Elétricas Solução Elétrica Montagem de Paineis Montagem de Iluminação
 Manutenção Elétrica Solução Fotovoltaica Energia Solar Painel Solar Elétrica para Armagenazem Elétrica para fabrica Cubículos de Energia
 Alfa Alpha Alfa Ijui Alpha Ijui Projeto Elétrico Engenharia Elétrica" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }; </script>
 <!-- bootstrap-css -->
 <link href="{{url(mix('site/css/bootstrap.css'))}}" rel="stylesheet" type="text/css" media="all" />
 <link href="{{url(mix('site/css/myStyle.css'))}}" rel="stylesheet" type="text/css" media="all" />
@@ -27,8 +27,9 @@ Alfa Alpha Alfa Ijui Alpha Ijui Projeto Elétrico Engenharia Elétrica" />
 <link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
 <!-- //font -->
-<script type="text/javascript" src="{{url(mix('site/js/jquery-2.1.4.min.js'))}}"></script>
+{{-- <script type="text/javascript" src="{{url(mix('site/js/jquery-2.1.4.min.js'))}}"></script> --}}
 <script src="{{url(mix('site/js/main.js'))}}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
 
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -168,10 +169,12 @@ Alfa Alpha Alfa Ijui Alpha Ijui Projeto Elétrico Engenharia Elétrica" />
 			speed: 0.5,
 			imgWidth: 1366,
 			imgHeight: 768
-		})
+		});
 	</script>
 	<!-- //jarallax -->
 	<script src="{{url(mix('site/js/bootstrap.js'))}}"></script>
+	{{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script> --}}
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 <!-- //here ends scrolling icon -->
 </body>	
 </html>

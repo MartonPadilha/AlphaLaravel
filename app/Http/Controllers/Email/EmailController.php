@@ -15,7 +15,6 @@ class EmailController extends Controller
 
     public function email(Request $request)
 	{
-
 		$rules = array(
 
 		// $rules = array(
@@ -30,20 +29,28 @@ class EmailController extends Controller
 
 		$validator = Validator::make($request->all(), $rules);
 
+
 		if ($validator->passes()){
 
 		    if ($validator->passes()){
 			$status = true;
 
-			Mail::to('contato@alphaeletrica.ind.br')->send(new \App\Mail\Help( $request->inputName, $request->inputEmail, $request->inputSubject, $request->inputMessage));
+			Mail::to('marton@megasolucoesti.com.br')->send(new \App\Mail\Help( $request->inputName, $request->inputEmail, $request->inputSubject, $request->inputMessage));
 
-			return view('site.contact',compact('status'));
+			$email['success'] = true;
+			$email['message'] = 'Email enviado com sucesso!';
+			echo json_encode($email);
+			return;
+			// return view('site.contact',compact('status'));
 		}
-
-		$status = false;
-		return view('contact',compact('status'));
+		$email['success'] = false;
+		$email['message'] = 'Erro ao enviar email!';
+		echo json_encode($email);
+		return;
+		// $status = false;
+		// return view('contact',compact('status'));
 
 		}
-	}
+	 }
 
 }
