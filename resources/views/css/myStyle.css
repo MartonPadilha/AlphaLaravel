@@ -339,6 +339,12 @@ width: 50px;
 background: url('assets/images/ajax-loader.gif') no-repeat;
 }
 
-
+#map{
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100% !important; 
+    height: 100% !important; 
+}
 
 
