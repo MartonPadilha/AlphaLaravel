@@ -6,7 +6,7 @@
             <a href="{{route('work.create')}}" class="btn green">Adicionar</a>
         </div>
        
-        <table>
+        <table class="data_table">
             <thead>
                 <tr>
                    <th>Título</th>

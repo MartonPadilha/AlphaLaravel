@@ -31,7 +31,7 @@
                 }, 5000);
         </script>
        
-        <table>
+        <table class="data_table">
             <thead>
                 <tr>
                    <th>Nome</th>
@@ -49,9 +49,6 @@
                         <td>{{$user->level}}</td>
                         <td>
                             {{$user->works->count()}}
-                            {{-- {{while($user->works->author == $user->id){
-                                $i++
-                            }}} --}}
                         </td>
                         <td>
                             @if (Auth::user()->level == "Administrador" || Auth::user()->id == $user->id)
