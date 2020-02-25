@@ -6,7 +6,7 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="{{url(mix('site/css/materialize.min.css'))}}" rel="stylesheet" type="text/css" media="all" />
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     {{-- Font Awesome --}}
@@ -26,14 +26,16 @@
 
 <body>
     <header>
-        <nav>
-            <div class="nav-wrapper deep-orange">
-                <a href="#!" class="brand-logo">Alpha Elétrica</a>
+        <nav style="padding-right: 15px;">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">
+                    <img src="{{asset('assets/images/logo/Versão_para_fundo_preto.png')}}" alt="">
+                </a>
                 <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                <li><a href="{{route('work.index')}}">Obras</a></li>
-                <li><a href="{{route('user.index')}}">Usuários</a></li>
-                <li><a href="{{route('admin.logout')}}">Sair</a></li>
+                    <li><a href="{{route('work.index')}}">Obras</a></li>
+                    <li><a href="{{route('user.index')}}">Usuários</a></li>
+                    <li><a href="{{route('admin.logout')}}">Sair</a></li>
                 </ul>
             </div>
         </nav>

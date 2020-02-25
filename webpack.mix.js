@@ -7,6 +7,7 @@ mix
     .styles('resources/views/css/simpleLighbox.css', 'public/site/css/simpleLighbox.css')
     .styles('resources/views/css/style.css', 'public/site/css/style.css')
     .styles('resources/views/css/myStyle.css', 'public/site/css/myStyle.css')
+    .styles('resources/views/css/materialize.min.css', 'public/site/css/materialize.min.css')
     .styles('resources/views/scss/_theme.default.scss', 'public/site/scss/_theme.default.scss')
     .styles('resources/views/scss/_theme.green.scss', 'public/site/scss/_theme.green.scss')
     .styles('resources/views/scss/_theme.scss', 'public/site/scss/_theme.scss')
