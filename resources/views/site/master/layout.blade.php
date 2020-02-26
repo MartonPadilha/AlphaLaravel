@@ -69,7 +69,7 @@ Alfa Alpha Alfa Ijui Alpha Ijui Projeto Elétrico Engenharia Elétrica" />
 							<span class="icon-bar"></span>
 						</button>
 						<a class="navbar-brand" href="index.html">
-							<img src="{{asset('assets/images/logo/Versão principal - colorida.png')}}" alt="">
+							<img src="{{asset('assets/images/logo/logo_principal.png')}}" alt="">
 						</a>
 					</div>
 	

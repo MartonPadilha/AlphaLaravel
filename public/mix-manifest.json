@@ -1,11 +1,13 @@
 {
     "/site/css/bootstrap.css": "/site/css/bootstrap.css",
+    "/site/css/bootstrap.min.css": "/site/css/bootstrap.min.css",
     "/site/css/flexslider.css": "/site/css/flexslider.css",
     "/site/css/font-awesome.min.css": "/site/css/font-awesome.min.css",
     "/site/css/simpleLighbox.css": "/site/css/simpleLighbox.css",
     "/site/css/style.css": "/site/css/style.css",
     "/site/css/myStyle.css": "/site/css/myStyle.css",
     "/site/css/materialize.min.css": "/site/css/materialize.min.css",
+    "/site/css/login.css": "/site/css/login.css",
     "/site/scss/_theme.default.scss": "/site/scss/_theme.default.scss",
     "/site/scss/_theme.green.scss": "/site/scss/_theme.green.scss",
     "/site/scss/_theme.scss": "/site/scss/_theme.scss",

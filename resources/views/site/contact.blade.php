@@ -114,15 +114,16 @@
                 beforeSend: function(){
                     $(".messageBox").addClass('loading')
                 },
-                error: function(){
-                    $('.messageBox').removeClass('loading')
-                    $('.messageBox').removeClass('d-none').addClass('text-center alert alert-danger').html(response.message)
-                },
                 success: function(response){
-                    $('.messageBox').removeClass('loading')
-                    $('form[name="form_contact"] :input').val('')
-                    $('input[name="send"]').val('Enviar')
-                    $('.messageBox').removeClass('d-none').addClass('text-center alert alert-success').html(response.message)
+                    if (response.success) {
+                        $('.messageBox').removeClass('loading')
+                        $('form[name="form_contact"] :input').val('')
+                        $('input[name="send"]').val('Enviar')
+                        $('.messageBox').removeClass('d-none').addClass('text-center alert alert-success').html(response.message)
+                    } else{
+                        $('.messageBox').removeClass('loading')
+                        $('.messageBox').removeClass('d-none').addClass('text-center alert alert-danger').html(response.message)
+                    }
                 }
             });
         });
