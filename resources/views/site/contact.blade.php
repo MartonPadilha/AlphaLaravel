@@ -11,12 +11,12 @@
     </div>
       
 <div class="agileits_w3layouts_mail_grids">	
-    <div class="col-md-7 w3l_mail_left">
+    <div class="col-md-7 w3l_mail_left anime-left">
         <div id="map">
             <iframe width="100%" height="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1755.1124465738596!2d-53.89313854177375!3d-28.382274635832317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94fc32959b640d71%3A0x5a92ef863c677b9c!2sR.%20Augusto%20Fengler%2C%20427%20-%20Jardim%2C%20Iju%C3%AD%20-%20RS%2C%2098700-000!5e0!3m2!1spt-BR!2sbr!4v1579203365488!5m2!1spt-BR!2sbr"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
     </div>
-    <div class="col-md-5 w3l_mail_right">
+    <div class="col-md-5 w3l_mail_right anime-right">
         <h3>Informações para Contato</h3>
         <ul>
             <li><span><i class="fa fa-home fa-lg" aria-hidden="true"></i></span> Rua Augusto Fengler 427, Jardim. Ijuí - RS</li>

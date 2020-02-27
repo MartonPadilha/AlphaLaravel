@@ -17,7 +17,7 @@
 			<p class="agileits_w3layouts_para w3_agile_para">Oferecemos uma vasta gama de serviços na automação de sistemas elétricos.</p>
 		
 		<div class="agile-prod1" id="electrical-panels">
-			<div class="col-md-6 agile-sub">
+			<div class="col-md-6 agile-sub anime-left">
 				<h4>PAINÉIS ELÉTRICOS</h4>
 				<ul>
 					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Painéis de Comando de motores (CCM)</li>
@@ -29,7 +29,7 @@
 					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Painéis TTA</li>
 				</ul>
 			</div>
-			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/services/Paineis.jpg)">
+			<div class="col-md-6 agile-sub anime-right" style="background-image: url(assets/images/services/Paineis.jpg)">
 				<div class="text-opacity">
 					<h4>PAINÉIS ELÉTRICOS</h4>
 					<ul>
@@ -44,7 +44,7 @@
 	
 
 		<div class="agile-prod1" id="agribusiness">
-			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/services/agro.jpg)">
+			<div class="col-md-6 agile-sub anime-left" style="background-image: url(assets/images/services/agro.jpg)">
 				<div class="text-opacity">
 					<h4>INSTALAÇÕES ELÉTRICAS E MECÂNICAS</h4>
 					<p>Agroindustriais</p>
@@ -55,7 +55,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-6 agile-sub">
+			<div class="col-md-6 agile-sub anime-right">
 				<h4>INSTALAÇÕES ELÉTRICAS E MECÂNICAS</h4>
 				<p>Agroindustriais</p>
 				<ul>
@@ -71,7 +71,7 @@
 		</div>
 
 		<div class="agile-prod1" id="industrial">
-			<div class="col-md-6 agile-sub">
+			<div class="col-md-6 agile-sub anime-left">
 				<h4>INSTALAÇÕES ELÉTRICAS E MECÂNICAS</h4>
 				<p>Industriais</p>
 				<ul>
@@ -85,7 +85,7 @@
 					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Tratamento de água e afluentes</li>
 				</ul>
 			</div>
-			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/services/industrial.jpg)">
+			<div class="col-md-6 agile-sub anime-right" style="background-image: url(assets/images/services/industrial.jpg)">
 				<div class="text-opacity">
 						<h4>INSTALAÇÕES ELÉTRICAS E MECÂNICAS</h4>
 						<p>Industriais</p>
@@ -100,7 +100,7 @@
 		</div>
 
 		<div class="agile-prod1" id="power-generation">
-			<div class="col-md-6 agile-sub" style="background-image: url(assets/images/services/energiaSolar.jpg)">
+			<div class="col-md-6 agile-sub anime-left" style="background-image: url(assets/images/services/energiaSolar.jpg)">
 				<div class="text-opacity">
 					<h4>GERAÇÃO DE ENERGIA</h4>
 					<ul>
@@ -110,7 +110,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-6 agile-sub">
+			<div class="col-md-6 agile-sub anime-right">
 				<h4>GERAÇÃO DE ENERGIA</h4>
 				<ul>
 					<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Soluções Fotovoltaicas - ENERGIA SOLAR</li>
@@ -123,7 +123,7 @@
 		</div>
 
 		<div class="agile-prod1" id="commercials">
-				<div class="col-md-6 agile-sub">
+				<div class="col-md-6 agile-sub anime-left">
 					<h4>COMERCIAIS</h4>
 					<ul>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Automação</li>
@@ -133,7 +133,7 @@
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Supermercados/ Shoppings</li>
 					</ul>
 				</div>
-				<div class="col-md-6 agile-sub" style="background-image: url(assets/images/640x425/_MG_9465.jpg)">
+				<div class="col-md-6 agile-sub anime-right" style="background-image: url(assets/images/640x425/_MG_9465.jpg)">
 					<div class="text-opacity">
 						<h4>COMERCIAIS</h4>
 						<ul>
@@ -147,7 +147,7 @@
 			</div>
 
 			<div class="agile-prod1" id="maintenance">
-					<div class="col-md-6 agile-sub" style="background-image: url(assets/images/services/manutencao.jpg)">
+					<div class="col-md-6 agile-sub anime-left" style="background-image: url(assets/images/services/manutencao.jpg)">
 						<div class="text-opacity">
 							<h4>MANUTENÇÃO, SERVIÇOS, PÓS VENDAS E TREINAMENTOS</h4>
 							<ul>
@@ -157,7 +157,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-6 agile-sub">
+					<div class="col-md-6 agile-sub anime-right">
 						<h4>MANUTENÇÃO, SERVIÇOS, PÓS VENDAS E TREINAMENTOS</h4>
 						<ul>
 							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Gestão de Energia - redução significativa na manutenção corretiva</li>

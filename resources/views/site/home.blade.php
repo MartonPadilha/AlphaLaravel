@@ -5,7 +5,7 @@
 <div class="banner jarallax">
 <div class="agileinfo-dot">
 			<div class="w3ls-banner-info-bottom">
-				<div class="container-fluid">
+				<div class="container">
 					<div class="banner-address">
 						<div class="banner-address-left">
 							<p><i class="fa fa-map-marker" aria-hidden="true"></i>  Rua Augusto Fengler 427, Jardim. Ijuí - RS</p>
@@ -111,7 +111,7 @@
 				<p class="agileits_w3layouts_para w3_agile_para">Dispomos de uma abrangência completa em soluções elétricas.</p>
 			</div>
 			<div class="w3layouts_skills_grids w3layouts_featured_services_grids">
-				<div class="col-md-6 services_background" style="background-image: url('assets/images/services/eletric_wallpaper.jpg'); border-radius: 70px;">
+				<div class="col-md-6 services_background anime-left" style="background-image: url('assets/images/services/eletric_wallpaper.jpg'); border-radius: 70px;">
 					@for ($i = 0; $i < 2; $i++)
 						{{-- <div class="col-md-3 w3_featured_services_left"> --}}
 						<div class="col-md-3 w3_featured_services_left" style="opacity: 0">
@@ -133,7 +133,7 @@
 					@endfor
 				</div>
 
-				<div class="col-md-3 w3_featured_services_left">
+				<div class="col-md-3 w3_featured_services_left anime-right">
 					<div class="w3_featured_services_left_grid">
 							<div class="col-xs-4 w3_featured_services_left_gridl">
 								<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
@@ -183,7 +183,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-3 w3_featured_services_left">	
+				<div class="col-md-3 w3_featured_services_left anime-right">	
 					<div class="w3_featured_services_left_grid">
 						<div class="col-xs-4 w3_featured_services_left_gridl">
 							<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
@@ -222,7 +222,7 @@
 				<h3 class="wthree_head">ÁREAS DE ATENDIMENTO</h3>
 			</div>
 			<div class="w3layouts_skills_grids w3layouts_featured_services_grids">
-				<div class="col-md-6 w3_featured_services_right">
+				<div class="col-md-6 w3_featured_services_right anime-left">
 					<div class="agile-sub-map">
 						<h3>REGIÃO SUL</h3>
 						<ul>
@@ -241,7 +241,7 @@
 					</div>
 				</div>
 				
-				<div class="col-md-6 w3_featured_services_left">
+				<div class="col-md-6 w3_featured_services_left anime-right">
 					<img src="{{asset('assets/images/services/mapa.jpg')}}" alt=" " class="img-responsive" style="background-size: cover; border-radius: 10px">
 				</div>
 				
@@ -254,7 +254,7 @@
 	<!-- values -->
 
 	<div class="banner-bottom">
-		<div class="container">
+		<div class="container anime-left">
 			<div class="agileits_heading_section">
 				<h3 class="wthree_head">Nossa Política</h3>
 				<p class="agileits_w3layouts_para w3_agile_para">Nossos objetivos básicos e irrenunciáveis.</p>
@@ -301,7 +301,7 @@
 
 	{{-- partners --}}
 	<div class="wrapper">
-		<div class="container">
+		<div class="container anime-right">
 			<div class="agileits_heading_section">
 				<h3 class="wthree_head">PARCEIROS</h3>
 				<p class="agileits_w3layouts_para w3_agile_para">A Alpha preocupa-se com a qualidade das suas soluções, e para isso é importante ter parceiros e

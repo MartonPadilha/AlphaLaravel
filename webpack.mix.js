@@ -10,6 +10,7 @@ mix
     .styles('resources/views/css/myStyle.css', 'public/site/css/myStyle.css')
     .styles('resources/views/css/materialize.min.css', 'public/site/css/materialize.min.css')
     .styles('resources/views/css/login.css', 'public/site/css/login.css')
+    .styles('resources/views/css/scrollAnimation.css', 'public/site/css/scrollAnimation.css')
     .styles('resources/views/scss/_theme.default.scss', 'public/site/scss/_theme.default.scss')
     .styles('resources/views/scss/_theme.green.scss', 'public/site/scss/_theme.green.scss')
     .styles('resources/views/scss/_theme.scss', 'public/site/scss/_theme.scss')
@@ -24,4 +25,5 @@ mix
     .scripts('resources/views/js/main.js', 'public/site/js/main.js')
     .scripts('resources/views/js/simpleLightbox.js', 'public/site/js/simpleLightbox.js')
     .scripts('resources/views/js/SmoothScroll.min.js', 'public/site/js/SmoothScroll.min.js')
+    .scripts('resources/views/js/scrollAnimation.js', 'public/site/js/scrollAnimation.js')
     ;

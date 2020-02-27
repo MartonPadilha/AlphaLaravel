@@ -8,6 +8,7 @@
     "/site/css/myStyle.css": "/site/css/myStyle.css",
     "/site/css/materialize.min.css": "/site/css/materialize.min.css",
     "/site/css/login.css": "/site/css/login.css",
+    "/site/css/scrollAnimation.css": "/site/css/scrollAnimation.css",
     "/site/scss/_theme.default.scss": "/site/scss/_theme.default.scss",
     "/site/scss/_theme.green.scss": "/site/scss/_theme.green.scss",
     "/site/scss/_theme.scss": "/site/scss/_theme.scss",
@@ -21,5 +22,6 @@
     "/site/js/jquery-2.1.4.min.js": "/site/js/jquery-2.1.4.min.js",
     "/site/js/main.js": "/site/js/main.js",
     "/site/js/simpleLightbox.js": "/site/js/simpleLightbox.js",
-    "/site/js/SmoothScroll.min.js": "/site/js/SmoothScroll.min.js"
+    "/site/js/SmoothScroll.min.js": "/site/js/SmoothScroll.min.js",
+    "/site/js/scrollAnimation.js": "/site/js/scrollAnimation.js"
 }
