@@ -9,6 +9,7 @@
     "/site/css/materialize.min.css": "/site/css/materialize.min.css",
     "/site/css/login.css": "/site/css/login.css",
     "/site/css/scrollAnimation.css": "/site/css/scrollAnimation.css",
+    "/site/css/gallery.css": "/site/css/gallery.css",
     "/site/scss/_theme.default.scss": "/site/scss/_theme.default.scss",
     "/site/scss/_theme.green.scss": "/site/scss/_theme.green.scss",
     "/site/scss/_theme.scss": "/site/scss/_theme.scss",
@@ -23,5 +24,6 @@
     "/site/js/main.js": "/site/js/main.js",
     "/site/js/simpleLightbox.js": "/site/js/simpleLightbox.js",
     "/site/js/SmoothScroll.min.js": "/site/js/SmoothScroll.min.js",
-    "/site/js/scrollAnimation.js": "/site/js/scrollAnimation.js"
+    "/site/js/scrollAnimation.js": "/site/js/scrollAnimation.js",
+    "/site/js/gallery.js": "/site/js/gallery.js"
 }

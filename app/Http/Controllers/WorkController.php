@@ -48,7 +48,7 @@ class WorkController extends Controller
         $work->title = $request->title;
         $work->description = $request->description;
         $work->category = $request->category;
-        $work->date = "05/01/2020";
+        $work->date = $request->date;
         if ($request->hasFile('file')) {
             $img = $request->file('file');
             $num = rand(0, 9999999999);
@@ -57,13 +57,11 @@ class WorkController extends Controller
             $fileName = "image_" . $num . " . " . $ex;
             $img->move($dir, $fileName);
             $work->file = $dir . "/" . $fileName;
-            // $request->file('file')->store('images');
-            // $work->file = $request->file('file');
         }
         $work->status = "enable";
         $work->save();
 
-        return redirect()->route('admin');
+        return redirect()->route('admin')->withStatus('Obra adicionada com sucesso a sua galeria!');
     }
 
     /**
@@ -110,12 +108,10 @@ class WorkController extends Controller
             $fileName = "image_" . $num . " . " . $ex;
             $img->move($dir, $fileName);
             $works->file = $dir . "/" . $fileName;
-            // $request->file('file')->store('images');
-            // $works->file = $request->file('file');
         }
         $works->save();
 
-        return redirect()->route('admin');
+        return redirect()->route('admin')->withStatus('Obra editada com sucesso!');
     }
 
     /**
@@ -127,7 +123,10 @@ class WorkController extends Controller
     public function destroy(Work $works)
     {
         $works->delete();
-        return redirect()->route('admin');
+        $delete['success'] = true;
+        $delete['message'] = 'A obra foi deletada com sucesso da sua galeria!';
+        echo json_encode($delete);
+        return;
     }
     
     public function viewWorks(){

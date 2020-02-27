@@ -5,6 +5,21 @@
         <div class="row">
             <a href="{{route('work.create')}}" class="btn green">Adicionar</a>
         </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                @if (session('status'))
+                    <div class="waves-effect waves-light btn text-center" id="time_out">
+                        <span>{{ session('status') }}</span>
+                    </div>
+                @else
+                    <div class="waves-effect waves-light btn" style="visibility: hidden">
+                        <span>teste</span>
+                    </div>
+                @endif
+            <div class="d-none messageBox"></div>
+          </div>
+        </div>
        
         <table class="data_table">
             <thead>
@@ -25,7 +40,7 @@
                         <td>{{$work->description}}</td>
                         <td>{{$work->category}}</td>
                         <td>{{$work->author_fk->name}}</td>
-                        <td>{{$work->date}}</td>
+                        <td>{{date('d-m-Y', strtotime($work->date))}}</td>
                         <td><img width="120" src="{{asset($work->file)}}" alt="{{$work->title}}"></td>
                         <td>
                             @if ($work->author == Auth::user()->id || Auth::user()->level == "Administrador")
@@ -40,7 +55,7 @@
                                 <p>Você tem certeza que deseja excluir essa obra?</p>
                                 </div>
                                 <div class="modal-footer">
-                                <form action="{{route('work.destroy', ['works' => $work->id])}}" method="POST">
+                                <form name="formDelete">
                                     @csrf
                                     @method('delete')
                                     <button type="submit" class="waves-effect waves-light btn modal-trigger">Sim</button>
@@ -53,5 +68,23 @@
                 @endforeach
             </tbody>
         </table>
+        {{-- action="{{route('work.destroy', ['works' => $work->id])}}" method="POST" --}}
+
     </div>
+    <script>
+        $(function(){
+            $('form[name="formDelete"]').submit(function(e){
+                e.preventDefault()
+                $.ajax({
+                    url: "{{route('work.destroy', ['works' => $work->id])}}",
+                    type: 'post',
+                    data: $(this).serialize(),
+                    dataType: 'json',
+                    success: function(response){
+                        $('.messageBox').removeClass('d-none').addClass('waves-effect waves-orange btn').html(response.message)
+                    }
+                })
+            })
+        })
+    </script>
 @endsection

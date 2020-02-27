@@ -52,7 +52,7 @@
                 </div>
     
                 <div class="input-field col s4">
-                        <input type="date" class="datepicker">
+                        <input type="date" class="datepicker" name="date">
                         <label for="">Data</label>
                 </div>  
             </div>

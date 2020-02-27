@@ -13,6 +13,7 @@ Alfa Alpha Alfa Ijui Alpha Ijui Projeto Elétrico Engenharia Elétrica" />
 <link href="{{url(mix('site/css/bootstrap.css'))}}" rel="stylesheet" type="text/css" media="all" />
 <link href="{{url(mix('site/css/myStyle.css'))}}" rel="stylesheet" type="text/css" media="all" />
 <link href="{{url(mix('site/css/scrollAnimation.css'))}}" rel="stylesheet" type="text/css" media="all" />
+<link href="{{url(mix('site/css/gallery.css'))}}" rel="stylesheet" type="text/css" media="all" />
 <!--// bootstrap-css -->
 <!-- css -->
 <link rel="stylesheet" href="{{url(mix('site/css/style.css'))}}" type="text/css" media="all" />
@@ -177,6 +178,7 @@ Alfa Alpha Alfa Ijui Alpha Ijui Projeto Elétrico Engenharia Elétrica" />
 	{{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script> --}}
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 	<script src="{{url(mix('site/js/scrollAnimation.js'))}}"></script>
+	<script src="{{url(mix('site/js/gallery.js'))}}"></script>
 <!-- //here ends scrolling icon -->
 </body>	
 </html>

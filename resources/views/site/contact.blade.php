@@ -104,8 +104,8 @@
     });
 
     $(function(){
-        $('form[name="form_contact"]').submit(function(e){
-            e.preventDefault()
+    $('form[name="form_contact"]').submit(function(e){
+        e.preventDefault()
             $.ajax({
                 url: "{{route('email')}}",
                 type: 'post',

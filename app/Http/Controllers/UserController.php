@@ -108,6 +108,9 @@ class UserController extends Controller
     public function destroy(User $user)
     {
         $user->delete();
-        return redirect()->route('user.index')->withStatus('Usuário deletado com sucesso!');
+        $delete['success'] = true;
+        $delete['message'] = 'A obra foi deletada com sucesso da sua galeria!';
+        echo json_encode($delete);
+        return;
     }
 }

@@ -62,21 +62,18 @@
 								<li style="background-image: url('{{asset('assets/images/1280x800/esc.jpg')}}'); background-size: cover">
 									<div class="agileits_w3layouts_banner_info">
 										<h3>SERVIÇOS ELÉTRICOS</h3>
-										<p>Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 									</div>
 									<div class="clearfix"> </div>
 								</li>
 								<li style="background-image: url('{{asset('assets/images/1280x800/_MG_9512_esc.jpg')}}'); background-size: cover">
 									<div class="agileits_w3layouts_banner_info" ba>
 										<h3>SEGURANÇA NA SUA EMPRESA</h3>
-										<p>Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 									</div>
 									<div class="clearfix"> </div>
 								</li>
 								<li style="background-image: url('{{asset('assets/images/1280x800/_MG_9552_esc.jpg')}}'); background-size: cover">
 									<div class="agileits_w3layouts_banner_info">
 										<h3>FERRAMENTAS E EQUIPAMENTOS ESPECIALIZADOS</h3>
-										<p>Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 									</div>
 									<div class="clearfix"> </div>
 								</li>

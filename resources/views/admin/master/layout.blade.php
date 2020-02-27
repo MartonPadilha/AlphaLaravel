@@ -1,7 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <title>@yield('title')</title>
+    <title>Alpha - Automação de Sistemas Elétricos</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Painéis Elétricos Instalação Elétrica Instalações Elétricas Solução Elétrica Montagem de Paineis Montagem de Iluminação
+    Manutenção Elétrica Solução Fotovoltaica Energia Solar Painel Solar Elétrica para Armagenazem Elétrica para fabrica Cubículos de Energia
+    Alfa Alpha Alfa Ijui Alpha Ijui Projeto Elétrico Engenharia Elétrica" />
     <link href="{{url(mix('site/css/myStyle.css'))}}" rel="stylesheet" type="text/css" media="all" />
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -47,7 +53,6 @@
         </ul>
     </header>
     @yield('content')
-
     <script>
         $('.data_table').DataTable({
             "language": {
@@ -87,6 +92,8 @@
             $('.modal').modal();
         });
     </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+<link href="{{url(mix('site/css/materialize.min.css'))}}" rel="stylesheet" type="text/css" media="all" />
 </body>
 </html>
 
