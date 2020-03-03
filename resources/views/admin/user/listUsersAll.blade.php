@@ -67,7 +67,7 @@
                                 <p>Você tem certeza que deseja excluir esse usuário?</p>
                                 </div>
                                 <div class="modal-footer">
-                                <form name="formDeleteUser">
+                                <form  method="POST" name="formDeleteUser" action="{{route('user.destroy', ['user' => $user->id])}}">
                                     @csrf
                                     @method('delete')
                                     <button type="submit" class="waves-effect waves-light btn modal-trigger">Sim</button>
@@ -81,20 +81,4 @@
             </tbody>
         </table>
     </div>
-    <script>
-        $(function(){
-            $('form[name="formDeleteUser"]').submit(function(e){
-                e.preventDefault()
-                $.ajax({
-                    url: "{{route('user.destroy', ['user' => $user->id])}}",
-                    type: 'post',
-                    data: $(this).serialize(),
-                    dataType: 'json',
-                    success: function(response){
-                        $('.messageBox').removeClass('d-none').addClass('waves-effect waves-orange btn').html(response.message)
-                    }
-                })
-            })
-        })
-    </script>
 @endsection

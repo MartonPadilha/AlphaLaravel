@@ -13,7 +13,6 @@ class AuthController extends Controller
         }
 
         return redirect()->route('admin.login');
-
     }
 
     public function showLoginForm(){

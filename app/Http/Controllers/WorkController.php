@@ -123,10 +123,10 @@ class WorkController extends Controller
     public function destroy(Work $works)
     {
         $works->delete();
-        $delete['success'] = true;
-        $delete['message'] = 'A obra foi deletada com sucesso da sua galeria!';
-        echo json_encode($delete);
-        return;
+        // $delete['success'] = true;
+        // $delete['message'] = 'A obra foi deletada com sucesso da sua galeria!';
+        // echo json_encode($delete);
+        return redirect()->route('admin')->withStatus('Obra deletada com sucesso!');
     }
     
     public function viewWorks(){

@@ -55,7 +55,7 @@
                                 <p>Você tem certeza que deseja excluir essa obra?</p>
                                 </div>
                                 <div class="modal-footer">
-                                <form name="formDelete">
+                                <form name="formDelete" action="{{route('work.destroy', ['works' => $work->id])}}" method="post">
                                     @csrf
                                     @method('delete')
                                     <button type="submit" class="waves-effect waves-light btn modal-trigger">Sim</button>
@@ -68,23 +68,5 @@
                 @endforeach
             </tbody>
         </table>
-        {{-- action="{{route('work.destroy', ['works' => $work->id])}}" method="POST" --}}
-
     </div>
-    <script>
-        $(function(){
-            $('form[name="formDelete"]').submit(function(e){
-                e.preventDefault()
-                $.ajax({
-                    url: "{{route('work.destroy', ['works' => $work->id])}}",
-                    type: 'post',
-                    data: $(this).serialize(),
-                    dataType: 'json',
-                    success: function(response){
-                        $('.messageBox').removeClass('d-none').addClass('waves-effect waves-orange btn').html(response.message)
-                    }
-                })
-            })
-        })
-    </script>
 @endsection
