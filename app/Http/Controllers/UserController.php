@@ -57,7 +57,7 @@ class UserController extends Controller
                 $user->save();
                 return redirect()->route('user.index')->withStatus('Usuário adicionado com sucesso!');
             } else{
-                return redirect()->back()->withInput()->withErrors(['A senha tem que ter no minímo 8 caracteres!']);
+                return redirect()->back()->withInput()->with('status' ,'A senha tem que ter no minímo 8 caracteres!');
             }
         } else {
             return redirect()->back()->withInput()->withErrors(['Este email já foi usado!']);

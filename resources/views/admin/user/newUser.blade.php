@@ -9,7 +9,7 @@
     <div class="container">
         <h3 class="center">Adicionar Usuário</h3>
        <div class="row">
-           <form action="{{route('user.store')}}" method="POST" enctype="multipart/form-data">
+           <form action="{{route('user.store')}}" method="POST" enctype="multipart/form-data" name="newUser_form">
             @csrf
             <div class="row">
                 <div class="input-field col s5">
@@ -51,6 +51,11 @@
                 <div class="input-field col s7">
                     <input type="password" name="password">
                     <label for="">Senha</label>
+                    @if (session('status'))
+                        <div class="red-text text-darken-1">
+                            {{ session('status') }}
+                        </div>
+                    @endif
                 </div> 
             </div>
     
@@ -60,5 +65,8 @@
            </form>
        </div>
     </div>
+    <script>
+      
+    </script>
 
 @endsection
