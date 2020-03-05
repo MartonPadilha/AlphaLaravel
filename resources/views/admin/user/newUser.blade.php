@@ -49,24 +49,33 @@
                 </div>
     
                 <div class="input-field col s7">
-                    <input type="password" name="password">
+                    <input type="password" name="password" id="password">
                     <label for="">Senha</label>
-                    @if (session('status'))
-                        <div class="red-text text-darken-1">
-                            {{ session('status') }}
-                        </div>
-                    @endif
+                    <div class="red-text text-darken-1 passwordMessage"></div>
                 </div> 
             </div>
     
 
-            <button type="submit" class="btn deep-orange">Salvar</button>
+            <button type="submit" id="btn_save" class="btn deep-orange">Salvar</button>
             <a class="waves-effect btn" href="{{route('user.index')}}">Voltar</a>
            </form>
        </div>
     </div>
     <script>
-      
-    </script>
+      let password = document.querySelector('#password');      
+      let btn_save = document.querySelector('#btn_save');      
+      window.addEventListener('load', function(){
+        btn_save.disabled = true
+      })
 
+      password.addEventListener('keyup', function(e){  
+        if (password.value.length < 8) {
+          document.querySelector('.passwordMessage').innerHTML = "A senha deve possuir no minímo 8 caracteres!"      
+          btn_save.disabled = true
+        } else {
+          document.querySelector('.passwordMessage').innerHTML = ""      
+          btn_save.disabled = false
+        }
+      });
+    </script>
 @endsection
